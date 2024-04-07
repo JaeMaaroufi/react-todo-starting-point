@@ -11,7 +11,6 @@ const ToDoItem = ({ todo, handleDelete, handleEdit }) => {
   const handleChange = (event) => {
     setChangedText(event.target.value);
   };
-
   return (
     <div className="flex items-center justify-between bg-gray-100 px-4 py-3 mb-2 rounded-lg shadow-md">
       {!isEditing ? (
